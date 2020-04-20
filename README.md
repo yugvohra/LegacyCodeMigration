@@ -2,3 +2,4 @@
 ## Analyse.js generates the ASTs for the repositories
 ### to run Analyse.js use Node version greater than 10 
 ```node analyse.js <absolute path of repo>```
+#### This will generate ASTs in the same directory of .js files 
