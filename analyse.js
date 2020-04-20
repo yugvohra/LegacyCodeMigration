@@ -66,7 +66,7 @@ if (process.argv.length < 3) {
         filename = results[i];
         extension = filename.substring(filename.length-3,filename.length);
         if (extension.toUpperCase() ===  ".JS") {
-            console.log(filename);
+            console.log("generating ast for " +filename);
             code = fs.readFileSync(filename,'utf-8');
             await analyzeCode(code, filename);
         }
